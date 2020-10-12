@@ -12,7 +12,7 @@ function Main() {
           building (and occasionally designing) exceptional high-quality <br></br>
           websites and applications.
         </p>
-        <button>Get in touch</button>
+        <button className="btn">Get In Touch</button>
       </div>
     </div>
   );

@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 95vh;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  //   background-color: red;
+
+  &__contents {
+    position: absolute;
+    top: 24.1rem;
+    left: 37.8rem;
+  }
+
+  &__first,
+  &__paragraph {
+    font-size: $font-size-large;
+    font-weight: 500;
+  }
+
+  &__name {
+    font-size: $header-font-size;
+    color: $color-header-primary;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    line-height: 8rem;
+
+    &--work {
+      color: $color-header-secondary;
+    }
+  }
+
+  &__paragraph {
+    font-weight: 300;
+    line-height: 3rem;
+    margin-bottom: 2.3rem;
+  }
+
+  
+}
