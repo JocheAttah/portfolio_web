@@ -2,7 +2,7 @@ import React from "react";
 
 function Main() {
   return (
-    <div className="main">
+    <div className="main" id="home">
       <div className="main__contents">
         <div className="main__first">Hi, my name is</div>
         <div className="main__name">Attah David Joche</div>
