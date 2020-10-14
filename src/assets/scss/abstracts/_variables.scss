@@ -10,17 +10,21 @@ $color-bright-red: hsl(356, 69%, 56%);
 // );
 
 $color-background-light: #fff;
-$color-background-dark: #f8f9fa;
-$color-white:#fff;
+$color-background-black: rgb(9, 9, 9);
+
+// $color-background-dark: #f8f9fa;
+$color-background-dark: rgb(248, 249, 250);
+$color-orange: #EB432A;
+$color-white: #fff;
 $color-header-primary: #21252a;
 $color-header-secondary: #adb5bd;
 $color-font: #343a40;
 $color-dark-grey: #707070;
 
-$color-shadow: rgba(0,0,0, 0.09);
-
+$color-shadow: rgba(0, 0, 0, 0.09);
+ 
 $font-size-large: 2rem;
 $font-size-norms: 1.6rem;
 $font-size-small: 1.4rem;
 
-$header-font-size: 7.2rem;   
+$header-font-size: 7.2rem;

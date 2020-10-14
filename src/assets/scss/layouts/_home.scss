@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 85vh ;
+  height: 90vh ;
   align-items: center;
   justify-content: center;
   position: relative;
-  // background-color: red;
+  background-color: $color-background-black;
 
   &__contents {
     position: absolute;
@@ -18,17 +18,18 @@
   &__paragraph {
     font-size: $font-size-large;
     font-weight: 500;
+    color: $color-white;
   }
 
   &__name {
     font-size: $header-font-size;
-    color: $color-header-primary;
+    color: $color-white;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     line-height: 8rem;
 
     &--work {
-      color: $color-header-secondary;
+      color: rgba($color-white, 0.5);
     }
   }
 

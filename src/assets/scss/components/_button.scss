@@ -3,14 +3,14 @@
     &:link,
     &:visited {
       border: 0;
-      background-color: $color-white;
+      background-color: $color-orange;
       padding: 1.5rem 3rem;
       // box-shadow: 0 1rem 1rem $color-font;
       box-shadow: 0 0.7rem 0.7rem $color-shadow;
       outline: none;
       cursor: pointer;
       //   text-transform: uppercase;
-      color: $color-dark-grey;
+      color: $color-white;
       font-weight: 700;
       font-size: 1.6rem;
 

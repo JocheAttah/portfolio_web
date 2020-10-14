@@ -1,12 +1,29 @@
 .header {
-  background-color: $color-background-light;
+  background-color: $color-background-black;
   width: 100%;
   padding: 3.5rem 0;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   padding-right: 10rem;
-  
+  color: $color-white;
+
+  // position: sticky;
+  // top: 0;
+
+  // transition-timing-function: ease-in;
+  // transition: all 0.2s;
+  // z-index: 1000;
+
+  // &__dark {
+  //   background-color: $color-orange;
+  //   color: black;
+  //   // background-color: black;
+  // }
+  // &__light {
+  //   background-color: $color-background-black;
+  // }
+
   &__container {
     width: 40%;
     display: flex;
@@ -15,10 +32,10 @@
     font-weight: 400;
     line-height: 2.1rem;
     letter-spacing: 0.8px;
-    
-    &--link{
+
+    &--link {
       text-decoration: none;
-      color: $color-dark-grey;
+      color: $color-white;
     }
   }
 }
