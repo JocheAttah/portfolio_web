@@ -1,8 +1,12 @@
 .featured {
-  display: flex;
   width: 60.5%;
   margin: auto auto;
-  padding: 5rem 38rem;
   height: 50rem;
-  background-color: $color-orange;
+  padding-top: 14rem;
+  //   background-color: $color-orange;
+
+  &__heading {
+      font-size: 5.6rem;
+      line-height: 1;
+  }
 }
