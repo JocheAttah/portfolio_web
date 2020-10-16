@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import GitHubIcon from "../assets/icons/github.svg";
 import webLink from "../assets/icons/weblink.svg";
 
@@ -7,7 +6,7 @@ function Project({ id, name, image, info, tags, github, weblink }) {
   return (
     <div className="project">
       <div className="project__imageContainer">
-        <img src={image} alt="bmi screenshot" className="project__image" />
+        <img src={image} alt={name} className="project__image" />
       </div>
       <div className="project__content">
         <p className="project__tag">Featured project</p>
@@ -16,17 +15,10 @@ function Project({ id, name, image, info, tags, github, weblink }) {
           <p className="project__detail">{info}</p>
         </div>
         <div className="project__tag project__techs">
-            {console.table(tags)}
-            {Object.keys(tags).forEach(tag =>(
-                <div>{tags[tag]}</div>
+            {/* console.log({tag}) */}
+            {tags.map((tag)=>(
+                <div className="project__tech">{tag}</div>
             ))}
-            {/* {for (let tag in tags) {
-                <div>{tags[tag].value}</div>
-            }} */}
-
-          {/* <div className="tech">ChartJS</div>
-          <div className="tech">JavaScript</div>
-          <div className="tech">SCSS</div> */}
         </div>
         <div className="project__link">
           <a href={github}>
@@ -36,10 +28,10 @@ function Project({ id, name, image, info, tags, github, weblink }) {
               alt="Github"
             />
           </a>
-            
-        <a href={weblink}>
+
+          <a href={weblink}>
             <img className="project__link--live" src={webLink} alt="web link" />
-        </a>
+          </a>
         </div>
       </div>
     </div>

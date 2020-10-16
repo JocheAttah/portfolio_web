@@ -2,12 +2,12 @@
   display: flex;
   align-content: flex-start;
   padding: 7rem 0;
-  margin-bottom: 19rem;
+  margin-bottom: 6rem;
 
   &__imageContainer {
     width: 66.9rem;
     height: 47.9rem;
-    background-color: #color-white;
+    // background-color: $color-white;
     box-shadow: 0 1rem 1rem $color-shadow;
   }
 
@@ -18,12 +18,10 @@
   }
 
   &__content {
-    // background-color: chocolate;
     width: 50.2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    
   }
 
   &__tag {
@@ -44,15 +42,21 @@
     text-align: right;
     font-weight: 400;
     font-size: $font-size-norms;
-    box-shadow: 0 .5rem 1rem $color-shadow;
-
+    box-shadow: 0 0.5rem 1rem $color-shadow;
   }
   &__techs {
     display: flex;
-    width: 80%;
+    width: 95%;
     justify-content: space-between;
     padding-top: 1rem;
     font-weight: 300;
+  }
+
+  &__tech {
+    margin-right: 1rem;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 
   &__link {
@@ -61,11 +65,11 @@
     width: 15%;
     justify-content: space-between;
     margin-top: 1rem;
-    
+
     &--github,
     &--live {
-        width: 24px;
-        height: 24px;
+      width: 24px;
+      height: 24px;
     }
   }
 }
