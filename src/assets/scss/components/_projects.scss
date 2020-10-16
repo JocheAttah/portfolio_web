@@ -2,13 +2,22 @@
   display: flex;
   align-content: flex-start;
   padding: 7rem 0;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
+  
+  &__swap{
+      flex-direction: row-reverse;
+  }
 
   &__imageContainer {
     width: 66.9rem;
     height: 47.9rem;
     // background-color: $color-white;
     box-shadow: 0 1rem 1rem $color-shadow;
+
+    &--left{
+        background-color:chocolate ;
+     order:0;
+    }
   }
 
   &__image {
@@ -22,6 +31,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
+    &--right{
+        align-items: flex-start;
+    }
   }
 
   &__tag {
@@ -43,6 +56,10 @@
     font-weight: 400;
     font-size: $font-size-norms;
     box-shadow: 0 0.5rem 1rem $color-shadow;
+
+    &--right{
+        text-align: left;
+    }
   }
   &__techs {
     display: flex;

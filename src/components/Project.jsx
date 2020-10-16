@@ -2,16 +2,16 @@ import React from "react";
 import GitHubIcon from "../assets/icons/github.svg";
 import webLink from "../assets/icons/weblink.svg";
 
-function Project({ id, name, image, info, tags, github, weblink }) {
+function Project({ id,isSwap, name, image, info, tags, github, weblink }) {
   return (
-    <div className="project">
-      <div className="project__imageContainer">
+    <div className={`project ${isSwap && 'project__swap'}`} id="fProjects">
+      <div className={`project__imageContainer `}>
         <img src={image} alt={name} className="project__image" />
       </div>
-      <div className="project__content">
+      <div className={` project__content ${isSwap && 'project__content--right'} `}>
         <p className="project__tag">Featured project</p>
         <h3 className="project__name">{name}</h3>
-        <div className="project__detailContainer">
+        <div className={`project__detailContainer ${isSwap && 'project__detailContainer--right'}`}>
           <p className="project__detail">{info}</p>
         </div>
         <div className="project__tag project__techs">

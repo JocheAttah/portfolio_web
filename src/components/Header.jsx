@@ -17,7 +17,7 @@ function Header() {
     },[])
 
     return (
-        <div className={`header ${show && "header__dark"}`}>
+        <div className={`header ${show && "header__dark"}`} id="home">
             <div className="header__container">
                 <HashLink className="header__container--link" to="/#home">Home</HashLink>
                 <HashLink className="header__container--link" to="/#fProjects">Featured Projects</HashLink>
