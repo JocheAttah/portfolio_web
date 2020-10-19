@@ -1,22 +1,23 @@
 .others {
   background-color: $color-orange;
   color: $color-white;
+//   height: 80rem;
 
-  &__content {
+&__content {
     width: 54.5%;
     margin: auto auto;
     padding-top: 14rem;
-//  background-color: blue;
+    //  background-color: blue;    
+    padding-bottom: 7rem;
+
   }
 
-  &__heading{
+  &__heading {
     font-size: 5.6rem;
     line-height: 1;
   }
 
-  &__container{
-      padding-top: 7rem;
+  &__container {
+    padding-top: 7rem;
   }
-
-
 }

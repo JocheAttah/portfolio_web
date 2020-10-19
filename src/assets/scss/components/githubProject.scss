@@ -1,0 +1,22 @@
+.githubProject {
+  width: 65%;
+  height: 5rem;
+  background-color: $color-white;
+  border-radius: 1rem;
+  margin-bottom: 2.8rem;
+  display: flex;
+  justify-content: space-between;
+text-decoration: none;
+  padding: 1.35rem 2rem;
+// margin-bottom: 14rem;
+  &__name {
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 400;
+  }
+
+  &__link--live {
+    width: 24px;
+    height: 24px;
+  }
+}

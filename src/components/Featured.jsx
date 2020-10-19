@@ -20,7 +20,7 @@ function Featured( ) {
   }, []);
 
   return (
-    <div className="featured" >
+    <div className="featured" id="fProjects" >
       <div className="featured___content">
         <h3 className="featured__heading">Featured</h3>
         <h3 className="featured__heading">Projects</h3>

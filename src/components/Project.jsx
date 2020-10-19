@@ -4,7 +4,7 @@ import webLink from "../assets/icons/weblink.svg";
 
 function Project({ id,isSwap, name, image, info, tags, github, weblink }) {
   return (
-    <div className={`project ${isSwap && 'project__swap'}`} id="fProjects">
+    <div className={`project ${isSwap && 'project__swap'}`} >
       <div className={`project__imageContainer `}>
         <img src={image} alt={name} className="project__image" />
       </div>
