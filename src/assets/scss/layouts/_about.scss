@@ -1,0 +1,45 @@
+.about {
+  &__content {
+    width: 54.5%;
+    margin: auto auto;
+    padding-top: 14rem;
+    padding-bottom: 7rem;
+    font-size: $font-size-norms;
+  }
+
+  &__heading {
+    font-size: 5.6rem;
+    line-height: 1;
+    margin-bottom: 4.85rem;
+  }
+  &__direction {
+    display: flex;
+  }
+
+  &__left {
+    width: 60%;
+  }
+
+  &__paragraph {
+    margin-bottom: 2.6rem;
+  }
+
+  &__techs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__tech {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+
+  &__right {
+    width: 40%;
+  }
+
+  &__imageContainer{
+      width:39.2rem;
+      height: 44.5rem;
+      background-color: chocolate;
+  }
+}
