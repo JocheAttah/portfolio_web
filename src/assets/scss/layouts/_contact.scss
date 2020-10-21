@@ -38,8 +38,9 @@
 
   &__name,
   &__email,
+  &__subject,
   &__message {
-    padding: 1rem 1rem;
+    padding: 1rem 1.5rem;
     outline: none;
     border: none;
     margin-bottom: 2rem;
@@ -63,5 +64,14 @@
 
   &__email{
       width: 80%
+  }
+
+  &__subject{
+      width: 95%
+  }
+
+  &__message{
+      font-size: 2rem;
+      padding: 2rem 1.5rem;
   }
 }

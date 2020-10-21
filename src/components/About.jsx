@@ -4,7 +4,7 @@ import myImage from "../assets/images/Attah.jpg";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about__content">
         <h3 className="about__heading">About Me</h3>
         <div className="about__direction">
