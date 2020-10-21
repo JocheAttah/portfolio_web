@@ -8,6 +8,7 @@
   padding-right: 10rem;
   color: $color-white;
 
+
   // position: sticky;
   // top: 0;
 
@@ -24,6 +25,11 @@
   //   background-color: $color-background-black;
   // }
 
+  &__padfix{
+    padding:0;
+    color: $color-header-secondary;
+  }
+  
   &__container {
     width: 40%;
     display: flex;
@@ -32,10 +38,14 @@
     font-weight: 400;
     line-height: 2.1rem;
     letter-spacing: 0.8px;
-
+    
     &--link {
       text-decoration: none;
       color: $color-white;
     }
   }
+  
+    &__widthfix{
+      width: 70%;
+    }
 }

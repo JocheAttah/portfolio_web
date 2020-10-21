@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 
-function Header() {
+function Header({footer}) {
 
     const [show, setShow] = useState(false);
 
@@ -17,8 +17,8 @@ function Header() {
     },[])
 
     return (
-        <div className={`header ${show && "header__dark"}`} id="home">
-            <div className="header__container">
+        <div className={`header ${show && "header__dark"} ${footer && "header__padfix"}`} id="home">
+            <div className={`header__container ${footer && "header__widthfix"}`}>
                 <HashLink className="header__container--link" to="/#home">Home</HashLink>
                 <HashLink className="header__container--link" to="/#fProjects">Featured Projects</HashLink>
                 <HashLink className="header__container--link" to="/#oProjects">Other projects</HashLink>

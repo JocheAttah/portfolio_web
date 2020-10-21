@@ -28,6 +28,7 @@
   &__inputs {
     display: flex;
     flex-direction: column;
+    margin-top: 3.5rem;
   }
 
   &__input {
@@ -50,6 +51,7 @@
   }
 
   &__label{
+      margin-bottom: 0.35rem;
       padding-left: .8rem;
       font-weight: 600;
       font-size: $font-size-small;
