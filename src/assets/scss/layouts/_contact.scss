@@ -1,0 +1,65 @@
+.contact {
+  background-color: $color-gold;
+  // text-align: center;
+
+  &__contents {
+    width: 40%;
+    margin: auto auto;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    font-size: $font-size-norms;
+  }
+
+  &__heading {
+    text-align: center;
+    font-size: 5.6rem;
+    line-height: 1;
+    margin-bottom: 3.55rem;
+  }
+
+  &__paragraph {
+    text-align: center;
+
+    & > span {
+      font-weight: 700;
+    }
+  }
+
+  &__inputs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__name,
+  &__email,
+  &__message {
+    padding: 1rem 1rem;
+    outline: none;
+    border: none;
+    margin-bottom: 2rem;
+    border-radius: .4rem;
+    font-size: $font-size-norms;
+    box-shadow: 0 0.5rem 1rem $color-shadow;
+
+
+  }
+
+  &__label{
+      padding-left: .8rem;
+      font-weight: 600;
+      font-size: $font-size-small;
+  }
+
+  &__name{
+      width:52.5%
+  }
+
+  &__email{
+      width: 80%
+  }
+}

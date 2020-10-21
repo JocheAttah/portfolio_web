@@ -31,15 +31,27 @@
   &__tech {
     width: 50%;
     margin-bottom: 1rem;
+    // font-weight: 400;
   }
 
   &__right {
     width: 40%;
+    position: relative;
+    margin-left: 3rem;
   }
 
-  &__imageContainer{
-      width:39.2rem;
-      height: 44.5rem;
-      background-color: chocolate;
+  &__imageContainer {
+    width: 39.2rem;
+    height: 44.5rem;
+    // background-color: chocolate;
+  }
+  &__Image {
+    object-fit: contain;
+    width: 41rem;
+    height: 50rem;
+    position: absolute;
+    top: -5rem;
+    box-shadow: 0 0.5rem 1rem $color-shadow;
+
   }
 }

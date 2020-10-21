@@ -5,6 +5,7 @@ import Main from "../components/Main";
 import Featured from "../components/Featured";
 import Others from "../components/Others";
 import About from "../components/About";
+import Contact from "../components/Contact";
 
 function routes() {
   return (
@@ -16,6 +17,7 @@ function routes() {
           <Featured />
           <Others />
           <About />
+          <Contact />
         </Route>
       </Switch>
     </Router>

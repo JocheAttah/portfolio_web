@@ -1,6 +1,6 @@
 import React from "react";
 import myImage from "../assets/images/Attah.jpg";
-// import imgsvg from "";
+// import imgsvg from '../assets/images/dots.png';
 
 function About() {
   return (
@@ -19,18 +19,20 @@ function About() {
             </div>
 
             <div className="about__techs">
-              <li className="about__tech">Javascript 1</li>
-              <li className="about__tech">Javascript 2</li>
-              <li className="about__tech">Javascript 3</li>
-              <li className="about__tech">Javascript 4</li>
-              <li className="about__tech">Javascript 5</li>
-              <li className="about__tech">Javascript 6</li>
+              <li className="about__tech">Javascript</li>
+              <li className="about__tech">ReactJS</li>
+              <li className="about__tech">CSS</li>
+              <li className="about__tech">SCSS</li>
+              <li className="about__tech">NodeJS</li>
+              <li className="about__tech">Firebase</li>
+              <li className="about__tech">User Interface & Experience Design</li>
+              
             </div>
           </div>
           <div className="about__right">
-            <div className="about__svgContainer">
-              <img className="about__svg" src="" alt="" />
-            </div>
+            {/* <div className="about__svgContainer"> */}
+              {/* <img className="about__svg" src={imgsvg} alt="" /> */}
+            {/* </div> */}
             <div className="about__imageContainer">
               <img className="about__Image" src={myImage} alt="" />
             </div>
