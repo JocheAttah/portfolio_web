@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import db from "../services/firebase";
-import request from "../services/request";
 import GithubProject from "./GithubProject";
 
 function Others() {

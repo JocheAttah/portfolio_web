@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Icon from  '../assets/icons/weblink.svg'
 
 
-function GithubProject({id, name, link}) {
+function GithubProject({ name, link}) {
 
 
   return (
