@@ -15,6 +15,9 @@ function Footer() {
         <div className="footer__phone">
         Phone: +234 806 693 8107
         </div>
+        <div className="footer__appreciation">
+        Design Inspiration From Brittany Chiang. <br/> Thank You!
+        </div>
       </div>
       <div className="footer__right">
           <div className="footer__nav">
