@@ -1,11 +1,24 @@
 .main {
   height: 88vh;
+  width: 100%;
   background-color: $color-background-black;
 
   &__contents {
     width: 54.5%;
     margin: auto auto;
     padding-top: 20.1rem;
+
+    @include respond(tab-land){
+      width: 80%;
+      padding-top: 13.1rem;
+    }
+    @include respond(tab-port){
+      width: 85%;
+      padding-top: 23.1rem;
+    }
+    @include respond(phone){
+      width: 95%;
+    }
   }
 
   &__first,

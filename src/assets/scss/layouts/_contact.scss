@@ -8,6 +8,18 @@
     padding-top: 7rem;
     padding-bottom: 7rem;
     font-size: $font-size-norms;
+
+    @include respond(tab-land){
+      width: 80%;
+      
+    }
+    @include respond(tab-port){
+      width: 85%;
+      
+    }
+    @include respond(phone){
+      width: 95%;
+    }
   }
 
   &__heading {

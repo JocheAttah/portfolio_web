@@ -10,6 +10,18 @@
     //  background-color: blue;    
     padding-bottom: 7rem;
 
+    @include respond(tab-land){
+      width: 80%;
+    
+    }
+    @include respond(tab-port){
+      width: 85%;
+    
+    }
+    @include respond(phone){
+      width: 95%;
+    }
+
   }
 
   &__heading {

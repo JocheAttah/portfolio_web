@@ -8,6 +8,14 @@
   padding-right: 10rem;
   color: $color-white;
 
+  @include respond(tab-land){
+        
+  }
+ 
+  @include respond(phone){
+    
+  }
+
 
   // position: sticky;
   // top: 0;
@@ -42,6 +50,10 @@
     &--link {
       text-decoration: none;
       color: $color-white;
+    }
+    @include respond(tab-port){
+      width: 70%;
+    
     }
   }
   

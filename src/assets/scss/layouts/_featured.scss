@@ -1,9 +1,19 @@
 .featured {
   width: 54.5%;
   margin: auto auto;
-//   height: 50rem;
   padding-top: 14rem;
-  //   background-color: $color-orange;
+ 
+  @include respond(tab-land){
+    width: 80%;
+    
+  }
+  @include respond(tab-port){
+    width: 85%;
+    
+  }
+  @include respond(phone){
+    width: 95%;
+  }
 
   &__heading {
       font-size: 5.6rem;
