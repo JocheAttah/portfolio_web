@@ -10,13 +10,12 @@
     padding-top: 7rem;
     padding-bottom: 7rem;
     display: flex;
+
     @include respond(tab-land){
-      width: 80%;
-     
+      width: 80%; 
     }
     @include respond(tab-port){
       width: 85%;
-      
     }
     @include respond(phone){
       width: 95%;
