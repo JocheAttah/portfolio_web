@@ -4,9 +4,18 @@
   align-content: flex-start;
   padding: 7rem 0;
   margin-bottom: 8rem;
-  
-  &__swap{
-      flex-direction: row-reverse;
+  width:100%;
+  height: 100%;
+
+  @include respond(phone){
+   flex-direction: column;
+   position: relative;
+  }
+
+
+
+  &__swap {
+    flex-direction: row-reverse;
   }
 
   &__imageContainer {
@@ -15,9 +24,9 @@
     // background-color: $color-white;
     box-shadow: 0 1rem 1rem $color-shadow;
 
-    &--left{
-        background-color:chocolate ;
-     order:0;
+    &--left {
+      background-color: chocolate;
+      order: 0;
     }
   }
 
@@ -33,8 +42,22 @@
     flex-direction: column;
     align-items: flex-end;
 
-    &--right{
-        align-items: flex-start;
+    @include respond(phone){
+      color:$color-white;
+      position: absolute;
+      top:7rem;
+      right:-3.19rem;
+      width: 66.9rem;
+      height: 47.9rem;
+      background-color: rgba(black, .5);
+     }
+
+    &--right {
+      align-items: flex-start;
+
+      @include respond(phone){
+        align-items: flex-end;
+      }
     }
   }
 
@@ -58,9 +81,19 @@
     font-size: $font-size-norms;
     box-shadow: 0 0.5rem 1rem $color-shadow;
 
-    &--right{
-        text-align: left;
+    &--right {
+      text-align: left;
+
+      @include respond(phone){
+        text-align: right;
+      }
     }
+
+    @include respond(phone){
+      background-color: $color-orange;
+      background-color: black;
+    }
+
   }
   &__techs {
     display: flex;

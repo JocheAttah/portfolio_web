@@ -7,14 +7,13 @@
   justify-content: flex-end;
   padding-right: 10rem;
   color: $color-white;
+  // position: sticky;
+  // top: 0;
+  // z-index: 1000;
   
   @include respond(phone) {
     padding: 2rem 2rem;
   }
-
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 
   // transition-timing-function: ease-in;
   // transition: all 0.2s;
