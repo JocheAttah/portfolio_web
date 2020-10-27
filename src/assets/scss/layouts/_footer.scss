@@ -17,15 +17,12 @@
     @include respond(tab-port){
       width: 85%;
     }
-    @include respond(phone){
-      width: 95%;
-    }
   }
 
   &__left {
     display: flex;
     flex-direction: column;
-    flex: 0 0 20%;
+    flex: 0 0 50%;
   }
 
   &__phone {
@@ -37,14 +34,23 @@
   }
 
   &__right {
-    flex: 0 0 80%;
+    flex: 0 0 50%;
     display: flex;
     flex-direction: column;
   }
 
+  &__nav{
+    @include respond(phone){
+      display: none;
+    }
+  }
   &__links {
     align-self: flex-end;
     padding-top: 3.7rem;
+    @include respond(phone){
+      padding-top: 0;
+      align-self: flex-end;
+    }
   }
 
   &__link {
@@ -57,7 +63,6 @@
   &__icon {
     width: 3.2rem;
     height: 3.2rem;
-    filter: invert(77%) sepia(9%) saturate(255%) hue-rotate(169deg)
-      brightness(94%) contrast(88%);
+    
   }
 }

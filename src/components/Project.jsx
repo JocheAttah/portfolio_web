@@ -2,7 +2,7 @@ import React from "react";
 import GitHubIcon from "../assets/icons/github.svg";
 import webLink from "../assets/icons/weblink.svg";
 
-function Project({ id,isSwap, name, image, info, tags, github, weblink }) {
+function Project({ id,isSwap, name, image, info, tags, github, weblink, mobile }) {
   return (
     <div className={`project ${isSwap && 'project__swap'}`} >
       <div className={`project__imageContainer `}>
@@ -21,7 +21,7 @@ function Project({ id,isSwap, name, image, info, tags, github, weblink }) {
             ))}
         </div>
         <div className="project__link">
-          <a href={github}>
+          <a className="asd" href={github}>
             <img
               className="project__link--github"
               src={GitHubIcon}

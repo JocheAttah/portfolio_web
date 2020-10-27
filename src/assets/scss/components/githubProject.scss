@@ -19,4 +19,10 @@ text-decoration: none;
     width: 24px;
     height: 24px;
   }
+
+  
+  @include respond(phone){
+    width: 100%;
+    // flex-wrap: wrap;
+  }
 }
