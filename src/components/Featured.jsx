@@ -27,7 +27,7 @@ function Featured( ) {
         {posts.map(({ id, post }, index) =>
           index % 2 !== 0 ? (
             <Project
-              isSwap
+              isSwap-
               key={id}
               id={id}
               name={post.name}
